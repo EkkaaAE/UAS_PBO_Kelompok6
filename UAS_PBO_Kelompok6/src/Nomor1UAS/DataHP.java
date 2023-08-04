@@ -13,7 +13,6 @@ public class DataHP implements Pajak{
     String tipe;
     double harga;
 
-    // Constructor dengan tiga parameter
     public DataHP(String vendor, String tipe, double harga) {
         this.vendor = vendor;
         this.tipe = tipe;
