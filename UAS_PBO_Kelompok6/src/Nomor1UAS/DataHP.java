@@ -24,11 +24,11 @@ public class DataHP implements Pajak{
         double PAJAK = 0;
         
         if (harga > 4000000 && harga <= 4200000) {
-            PAJAK = 0.01; // PPN 1%
+            PAJAK = 0.01;
         } else if (harga > 4200000 && harga <= 4500000) {
-            PAJAK = 0.02; // PPN 2%
+            PAJAK = 0.02;
         } else if (harga > 4500000) {
-            PAJAK = 0.05; // PPN 5%
+            PAJAK = 0.05;
         }
 
         return (harga + (harga * PAJAK));
